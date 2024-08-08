@@ -26,7 +26,7 @@ export const events = {
     //"integration",
     "use_saml", // TODO : use_saml will always need to be implemented 
   ];
-  export  const loginVariables = ["access_key", "redirect_url", "zone_url"];
+  
   export  const assetVariables = ["remove_header"]; 
   export  const WIDGET_VARIABLES = [
     //"integration", 
@@ -37,17 +37,8 @@ export const events = {
     "default_transformations", // TODO : need to implement this
     "insert_caption", 
     "remove_header", 
-    /**
+    "mode",
     "folder",
-    "search",
-    "asset", 
-    "transformation",
-    "sandboxNotAllowedAttributes",
-     */
-    "mode", // select or transform
-    //"search",
-    "folder",
-    //"asset"
   ];
 
   export const SEARCH_ATTRIBUTES = [
@@ -55,11 +46,7 @@ export const events = {
     "sortBy",
     "orderBy",
     "path",
-    "fileType"
-  ]
-
-  export const PLAYGROUND_ATTRIBUTES = [
-    "asset_url",
+    "search"
   ]
 
   export  const SANDBOX_ATTRIBUTES = [

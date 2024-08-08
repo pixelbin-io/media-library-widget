@@ -1,4 +1,4 @@
-import { configVariables , assetVariables,  PLAYGROUND_ATTRIBUTES, SEARCH_ATTRIBUTES } from  "./constants.js"
+import { configVariables , assetVariables, SEARCH_ATTRIBUTES } from  "./constants.js"
  
  function urlConstructor(path, options, paramKeys, additionalParams = {}) {
     
@@ -56,7 +56,7 @@ function serializeQueryParamas(additionalParams, paramKeys, options) {
        mediaURL = urlConstructor(
         PLAYGROUND_PATH,
         widgetOptions,
-        [...configVariables, ...assetVariables, ...PLAYGROUND_ATTRIBUTES],
+        [...configVariables, ...assetVariables],
         additionalParams
       );
   

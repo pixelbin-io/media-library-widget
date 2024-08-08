@@ -1,4 +1,6 @@
 import { Widget } from "./widget.js";
+const { v4: uuidv4 } = require('uuid');
+
 
 ((window) => {
     const init = (conifg, callbackFunctions, container) => {
@@ -6,7 +8,7 @@ import { Widget } from "./widget.js";
         options: conifg,
         callbacks: callbackFunctions,
         element: container,
-        mlId: 12345,
+        mlId: uuidv4(),
       });
     };
     window.pixelbin = window.pixelbin || {}; 

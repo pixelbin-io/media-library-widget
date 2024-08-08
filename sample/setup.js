@@ -1,11 +1,9 @@
-import "./bundle.js"
-
 window.ml = window.pixelbin.createMediaLibrary(
     {
-      dev:true,
+      //dev:true,
       cloud_name : "polished-hat-8f9bd4",
-      pixelbinURL : "https://local.pixelbinz0.de:9090",
-      remove_header: false,
+      //pixelbinURL : "https://local.pixelbinz0.de:9090",
+      remove_header: true,
       max_files: "1",
       insert_caption: "Insert",
       inline_container: "#widget_container",
@@ -16,7 +14,7 @@ window.ml = window.pixelbin.createMediaLibrary(
     {
       insertHandler: function (data) {
         if(data && data.assets){
-          data.assets.forEach((asset) => {
+          data.assets.forEach( (asset) => {
             console.log("Inserted asset:", JSON.stringify(asset, null, 2));
           });
         }

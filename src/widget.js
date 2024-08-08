@@ -262,7 +262,7 @@ export class Widget extends EventCommunicator {
       this.originalBodyOverflow = null;
     }
     this.isMediaLibraryVisible = false;
-    toggleVisibility();
+    this.toggleVisibility();
     this.emitHideData();
   };
 
