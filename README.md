@@ -74,13 +74,24 @@ window.ml = window.pixelbin.createMediaLibrary(
 ```
 
 
-## Demo
+You can enhance your README section by including instructions for running the demo, along with a link to an open sandbox environment if available. Here’s how you might write it:
 
-Run following commands:
+---
 
-```bash
-npm install
-npm run start
-```
-It will install dependencies and serve the included demo: `sample`.
-The sample app should be available on `http://localhost:8080/`.
+### Demo
+
+To try out the included sample app, follow these steps:
+
+1. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the application:
+   ```bash
+   npm run start
+   ```
+
+This will serve the demo app, which you can access at [http://localhost:8080/](http://localhost:8080/).
+
+Additionally, for a quick, hassle-free demonstration without any local setup, you can access the sample app in an open sandbox environment. [Open sandbox Demo](https://codesandbox.io/p/sandbox/bold-star-ckyzdd).
