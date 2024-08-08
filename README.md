@@ -32,9 +32,13 @@ The widget allows passing callback functions to handle various events:
 
 - `insertHandler`: Function called after media is selected. It receives an object containing selected media details.
 
-#### Methods
+#### Pixelbin Methods :- 
 - `createMediaLibrary`: Initializes and returns a new media library widget instance.
 - `openMediaLibrary`: This method allows for programmatically opening the media library widget, providing flexibility in how and when the widget is displayed.
+
+#### Widget Instance Methods
+- `show`: Displays the media library with optional configuration settings.
+- `hide`: Hides the media library.
 
 
 #### Example
@@ -68,6 +72,14 @@ window.ml = window.pixelbin.createMediaLibrary(
 </script>
 ```
 
-#### Additional Notes
-- Ensure that the container for the widget (`inline_container`) exists in the DOM before initializing the widget.
-- Customize the look and feel of the widget by overriding CSS styles as necessary.
+
+## Demo
+
+Run following commands:
+
+```bash
+npm install
+npm run start
+```
+It will install dependencies and serve the included demo: `sample`.
+The sample app should be available on `http://localhost:8080/`.
