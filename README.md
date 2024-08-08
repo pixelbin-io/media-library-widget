@@ -5,16 +5,17 @@
 The Pixelbin Media-Library Widget provides a customizable media selector for web applications, enabling users to choose images or videos from Pixelbin's cloud-based storage. It offers extensive UI customization options and includes callback functions for seamless integration and further processing of selected media.
 
 #### Prerequisites
-- Ensure you have the following:
+Ensure you have the following:
   - A valid Pixelbin cloud account and `cloud_name`
   - An HTML element in your DOM where the widget will be embedded
 
 ## Installation
-1. **Include the JavaScript Library**
-   - Add the following script tag to include the `bundle.js` in your HTML file.
-     ```html
-     <script src="https://cdn.jsdelivr.net/gh/pixelbin-io/media-library-widget/dist/bundle.js"></script>
-     ```
+
+### Using Url
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/pixelbin-io/media-library-widget/dist/bundle.js"></script>
+```
 
 ## Configuration 
 The widget can be configured with the following options:
