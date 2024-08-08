@@ -10,9 +10,9 @@ The Pixelbin Media-Library Widget provides a customizable media selector for web
 
 #### Installation
 1. **Include the JavaScript Library**
-   - Add the following script tag to include the `bundle.js` in your HTML file. Replace `YOUR_GITHUB_URL` with the actual URL where `bundle.js` is hosted:
+   - Add the following script tag to include the `bundle.js` in your HTML file.
      ```html
-     <script src="YOUR_GITHUB_URL/bundle.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/pixelbin-io/media-library-widget/dist/bundle.js"></script>
      ```
 
 #### Configuration Options
