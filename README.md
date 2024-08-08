@@ -72,12 +72,6 @@ window.ml = window.pixelbin.createMediaLibrary(
 );
 </script>
 ```
-
-
-You can enhance your README section by including instructions for running the demo, along with a link to an open sandbox environment if available. Here’s how you might write it:
-
----
-
 ### Demo
 
 To try out the included sample app, follow these steps:
