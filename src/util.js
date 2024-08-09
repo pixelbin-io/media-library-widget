@@ -1,4 +1,4 @@
-import { configVariables , assetVariables, SEARCH_ATTRIBUTES } from  "./constants.js"
+import { configVariables , assetVariables, SEARCH_ATTRIBUTES, WIDGET_VARIABLES } from  "./constants.js"
  
  function urlConstructor(path, options, paramKeys, additionalParams = {}) {
     
@@ -49,7 +49,7 @@ function serializeQueryParamas(additionalParams, paramKeys, options) {
       frameHost: `${initialURL.protocol}//${initialURL.host}`,
       ml_id: mediaLibraryId,
     };
-
+    
     var mediaURL = "";
     if(widgetOptions.mode === "playground"){
       widgetOptions.url = widgetOptions.asset_url; 
@@ -65,7 +65,7 @@ function serializeQueryParamas(additionalParams, paramKeys, options) {
       mediaURL = urlConstructor(
         STORAGE_PATH,
         widgetOptions,
-        [...configVariables, ...assetVariables, ...SEARCH_ATTRIBUTES ],
+        [...configVariables, ...assetVariables, ...SEARCH_ATTRIBUTES , ...WIDGET_VARIABLES],
         additionalParams
       );
     } 

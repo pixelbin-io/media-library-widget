@@ -1,10 +1,13 @@
+import "./bundle.js"
+
 window.ml = window.pixelbin.createMediaLibrary(
     {
       //dev:true,
       cloud_name : "polished-hat-8f9bd4",
       //pixelbinURL : "https://local.pixelbinz0.de:9090",
       remove_header: true,
-      max_files: "1",
+      max_files: "2",
+      multiple : true,
       insert_caption: "Insert",
       inline_container: "#widget_container",
       default_transformations: [[]],

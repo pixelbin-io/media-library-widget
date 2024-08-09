@@ -30,7 +30,7 @@ export class Widget extends EventCommunicator {
     };
     this.setupEventHandlers(callbacks)
     this.isFullscreen = !!options.inline_container;
-    var { initialURL, mediaLibraryUrl } = createURLs(options, mediaLibraryId, options);
+    var { initialURL, mediaLibraryUrl } = createURLs(options, mediaLibraryId);
     widgetOptions.mlUrl = initialURL;
     widgetOptions.callbacks = callbacks;
     this.setupButton(buttonPlaceHolder, options);
