@@ -14,7 +14,8 @@
     "@pixelbin/admin": "^4.0.3",
     "buffer": "^6.0.3",
     "querystring": "^0.2.1",
-    "url": "^0.11.3"
+    "url": "^0.11.3",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "webpack": "^5.91.0",
