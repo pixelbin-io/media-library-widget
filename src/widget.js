@@ -11,7 +11,7 @@ export class Widget extends EventCommunicator {
 	messageHandler = null;
 	isFullscreen = false;
 
-	pixelbinURL = "pixelbinz0.de";
+	pixelbinURL = "pixelbin.io";
 
 	constructor({
 		options: options,

@@ -6,7 +6,6 @@ The Pixelbin Media-Library Widget provides a customizable media selector for web
 
 #### Prerequisites
 Ensure you have the following:
-  - A valid Pixelbin cloud account and `cloud_name`
   - An HTML element in your DOM where the widget will be embedded
 
 ## Installation
