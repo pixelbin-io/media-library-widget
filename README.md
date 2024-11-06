@@ -50,8 +50,6 @@ The widget allows passing callback functions to handle various events:
 <script>
 window.ml = window.pixelbin.createMediaLibrary(
   {
-    cloud_name: "polished-hat-8f9bd4",
-    remove_header: true,
     max_files: "1",
     insert_caption: "Insert",
     inline_container: "#widget_container",
