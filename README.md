@@ -6,7 +6,6 @@ The Pixelbin Media-Library Widget provides a customizable media selector for web
 
 #### Prerequisites
 Ensure you have the following:
-  - A valid Pixelbin cloud account and `cloud_name`
   - An HTML element in your DOM where the widget will be embedded
 
 ## Installation
@@ -51,8 +50,6 @@ The widget allows passing callback functions to handle various events:
 <script>
 window.ml = window.pixelbin.createMediaLibrary(
   {
-    cloud_name: "polished-hat-8f9bd4",
-    remove_header: true,
     max_files: "1",
     insert_caption: "Insert",
     inline_container: "#widget_container",
